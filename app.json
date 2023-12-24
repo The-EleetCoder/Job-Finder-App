@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "jobs_app",
-    "slug": "jobs_app"
+    "slug": "jobs_app",
+    "android": {
+      "package": "com.example.jobify",
+      "runtimeVersion": "1.0.0"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "58ea0e90-10e4-4989-b1e2-f881d7e722c4"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/58ea0e90-10e4-4989-b1e2-f881d7e722c4"
+    },
+    "ios": {
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    }
   }
 }
